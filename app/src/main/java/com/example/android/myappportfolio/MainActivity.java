@@ -20,28 +20,23 @@ public class MainActivity extends AppCompatActivity {
         switch (v.getId()){
             case R.id.btn_proj1:
                 message= text1 + getString(R.string.project1) +text2;
-                Toast.makeText(this,message,Toast.LENGTH_LONG).show();
                 break;
             case R.id.btn_proj2:
                 message= text1 + getString(R.string.project2) +text2;
-                Toast.makeText(this,message,Toast.LENGTH_LONG).show();
                 break;
             case R.id.btn_proj3:
                 message= text1 + getString(R.string.project3) +text2;
-                Toast.makeText(this,message,Toast.LENGTH_LONG).show();
                 break;
             case R.id.btn_proj4:
                 message= text1 + getString(R.string.project4) +text2;
-                Toast.makeText(this,message,Toast.LENGTH_LONG).show();
                 break;
             case R.id.btn_proj5:
                 message= text1 + getString(R.string.project5) +text2;
-                Toast.makeText(this,message,Toast.LENGTH_LONG).show();
                 break;
             case R.id.btn_proj6:
                 message= text1 + getString(R.string.project6) +text2;
-                Toast.makeText(this,message,Toast.LENGTH_LONG).show();
                 break;
         }
+        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
     }
 }
